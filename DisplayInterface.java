@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class DisplayInterface
 {
@@ -22,6 +23,7 @@ public class DisplayInterface
           askForInput = new JLabel("Enter a size for the array");
           outPut = new JTable();
 
+          GridLayout gridLayout = new GridLayout(3,2);
           mainPanel.add(askForInput);
           mainPanel.add(inputArraySize);
           mainPanel.add(sortArray);
